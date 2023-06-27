@@ -75,7 +75,7 @@ nav a{
 }
 #nosotros{
     width: 90%;
-    height: 610px;
+    height: 670px;
     margin: 0 auto;
     margin-top: 60px;
     background-image: url(image/fondo.png); 
@@ -97,6 +97,9 @@ nav a{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+#empleados h3{
+    text-align: center;
 }
 #ingresos{
     width: 100%;
@@ -123,7 +126,7 @@ footer{
     width: 100%;
     height: 140px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     padding-top: 50px;
 }
 #catalogo{
@@ -147,6 +150,10 @@ footer{
 #precio{
     text-align: center;
 }
+#precio p 
+{
+    margin-bottom: 10px;
+}
 #columna2{
     width: 60%;
     height: 450px;
@@ -164,15 +171,18 @@ footer{
     justify-content: space-between;
     padding-top: 30px;
 }
-#volver{
+.volver{
     width: 100%;
     height: 50px;
     background-image: url(image/fondo.png);
     text-align: center;
-    color: white;
-    font-weight: bolder;
-    font-size:large;
     padding-top: 12px;
+}
+.volver a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 .preguntas{
     width: 80%;
@@ -191,7 +201,7 @@ footer{
     padding-bottom: 20px;
 }
 #showroom{
-    width: 90%;
+    width: 80%;
     height: 550px;
     margin: 0 auto;
     display: flex;
@@ -200,13 +210,35 @@ footer{
 }
 #iconos{
     width: 90%;
-    height: 400px;
+    height: 530px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    align-items: center;
 
 }
 .pregfreq{
     font-size: 1.6em;
+}
+.button
+{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e89973;
+}
+#mar{
+    background: linear-gradient(white,rgb(236, 181, 114));
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+#sectionpreg{
+    background: linear-gradient(rgb(249, 208, 196),rgb(236, 181, 114), rgb(249, 208, 196));
+}
+#ultimosingresos{
+    background: linear-gradient(white,rgb(236, 181, 114));
+    -webkit-background-clip: text;
+    color: transparent;
 }
